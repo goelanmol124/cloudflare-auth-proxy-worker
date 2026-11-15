@@ -1,0 +1,9 @@
+name = "auth-proxy"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+BACKEND_URL = "https://api.example.com"
+# ALLOWED_PATHS = "/api/login,/api/registration"
+# PROXY_SECRET is a secret: `npx wrangler secret put PROXY_SECRET`
+# For local dev, put it in .dev.vars (see .dev.vars.example)
